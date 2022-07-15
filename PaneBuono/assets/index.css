@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar{
+    background: #555;
+}
+
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .container ul{
+    display: flex;
+    padding-right: 1rem;
+}
+
+#navbar .container ul li{
+    display: flex;
+    list-style-type: none;
+}
+
+#navbar .container ul li a{
+    padding: 30px;
+    display: block;
+}
+
+#navbar .container h1{
+    text-transform: uppercase;
+    padding-left: 1rem;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    background-color: #333;
+    color: orange;
+}
+
+
+#showcase1 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url(../image/pane1.jpg) no-repeat center center/cover;
+}
+
+#showcase1 .container h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase1 .container p{
+    margin-bottom: 20px;
+}
+
+#showcase1 .container .color-primary{
+    color: orange;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background-color: #333;
+    padding: 13px 18px;
+    border: none;
+}
+
+.btn-light{
+    background-color: orange;
+    color: #333;
+    padding: 13px 18px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-light:hover{
+    background-color: #555;
+    color: white;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: #333;
+}
+
+#showcase-2 .container{
+    display: flex;
+    height: 400px;
+}
+
+#showcase-2 .container .image{
+    background: url("../image/pane2.jpg") no-repeat center center/cover;
+    flex: 1;
+}
+
+#showcase-2 .container .section-text{
+    flex: 1;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#showcase-2 .container h1{
+    color: white;
+}
+
+
+#showcase-2 .container .color-primary{
+    color: orange;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+}
