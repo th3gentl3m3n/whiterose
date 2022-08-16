@@ -1,2 +1,2 @@
 # whiterose
-a young developer
+
